@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 This is my reference to make a changlog file [click here](https://github.com/conventional-changelog/standard-version/blob/25300ff44d398cb48889111fb2b55353265a77db/CHANGELOG.md)
 
 <a name="0.2.0"></a>
+# 0.3.0 (2021-11-02)
+
+### Features
+
+* **Create middles errors** created `/user` with HTTP's method POST.
+* **database config:** adds config of database.
+
+<a name="0.2.0"></a>
 # 0.2.0 (2021-11-02)
 
 ### Features

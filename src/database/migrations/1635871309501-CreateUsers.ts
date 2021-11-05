@@ -18,12 +18,11 @@ export class CreateUsers1635871309501 implements MigrationInterface {
                         type: 'varchar',
                         isUnique: true,
                     },{ 
-                        name: 'password',
-                        type: 'varchar',
-                    },{
+                    //     name: 'password',
+                    //     type: 'varchar',
+                    // },{
                         name: 'admin',
                         type: 'boolean',
-                        isUnique: true,
                     },{ 
                         name: 'created_at',
                         type: 'timestamp',
@@ -42,5 +41,4 @@ export class CreateUsers1635871309501 implements MigrationInterface {
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable('users');
     }
-
 }

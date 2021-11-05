@@ -2,7 +2,7 @@
 This application consists of a professional feedback manager. This application was developed together with Rocketseat at NLW.
 
 ### Changelog
-The version control of this project can be seen here: [CHANGELOG.md](CHANGELOG.md)
+The version control of this project can be seen here: [CHANGELOG.md](changelog.md)
 
 ## 💻 Technologies
 This project was developed with the following technologies:
@@ -11,6 +11,20 @@ This project was developed with the following technologies:
 - [Typescript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [JSONWebToken](https://github.com/auth0/node-jsonwebtoken#readme)
+
+## Quick Start
+
+``` js
+// run migrations
+yarn typeorm migration:run
+
+// run application for dev
+yarn run dev
+
+// run application for production
+yarn run start
+
+```
 
 ## 🚀 Features
 
