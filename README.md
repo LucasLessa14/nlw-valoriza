@@ -29,6 +29,10 @@ yarn run start
 ## 🚀 Features
 
 - Create a new user
+- Create a new tag
+- Authenticate system
+- Create a new feedback
+- Check if the feedback is valid
 
 ## 🧑‍💻 Author
 
