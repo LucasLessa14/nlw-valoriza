@@ -31,8 +31,11 @@ yarn run start
 - Create a new user
 - Create a new tag
 - Authenticate system
-- Create a new feedback
-- Check if the feedback is valid
+- Create a new compliment
+- Check if the compliment is valid
+- List Tags
+- List Users
+- List compliments
 
 ## 🧑‍💻 Author
 
